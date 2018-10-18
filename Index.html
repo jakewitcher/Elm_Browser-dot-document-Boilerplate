@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Title</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+
+    <!-- The src below must match the "elm make" output file -->
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div id="elm"></div>
+    <!-- The below script only works if your Elm file is called "Main.elm"
+    If you name the file differently, change the code below to "Elm.YourFileName.init" -->
+    <script>
+        var app = Elm.Main.init({
+            node: document.getElementById('elm')
+        });
+    </script>
+</body>
+
+</html>
