@@ -7,5 +7,7 @@ To get started, clone this repository to your own machine, and type "elm init" i
 For additonal information refer to the official guide and package documentation: 
 
 https://guide.elm-lang.org/interop/
+
 https://guide.elm-lang.org/webapps/
+
 https://package.elm-lang.org/
